@@ -1,7 +1,7 @@
 spring:
   activemq:
-    broker-url: tcp://localhost:61616
+    broker-url: tcp://amq-broker-hdls-svc:61616
     user: admin
-    password: admin
+    password: admin@123
   main:
     allow-bean-definition-overriding: true
